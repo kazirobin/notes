@@ -180,7 +180,7 @@ Here,
 
 1. First, the condition in the `if` statement is checked. If the condition evaluates to `true`, the body of `if` is executed, and the rest is skipped.
 2. Otherwise, the condition in the `else if` statement is checked. If `true`, its body is executed and the rest is skipped.
-3. Finally, if no condition matches, the block of code in `else` is executed.
+3. Finally, if no condition matches, the block of code in `else` is executed .
 
 ![Screenshot_5.jpg](JavaScript%20If%20Else%20Statement%201b2aeacbb29981b9ad6ed17801fa1b3b/Screenshot_5.jpg)
 
