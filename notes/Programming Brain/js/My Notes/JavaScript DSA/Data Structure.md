@@ -4,4 +4,4 @@ A data structure is a specialized format for organizing, processing, retrieving,
 
 ---
 
-[**Stack & Queue**](Data%20Structure%201b2aeacbb29981e5ab36e344b3fb7fb0/Stack%20&%20Queue%201b2aeacbb29981749903d201ea0db8d1.md)
+[**Stack & Queue**](./Data%20Structure/Stack%20&%20Queue.md)
