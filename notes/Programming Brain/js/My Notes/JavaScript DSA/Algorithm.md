@@ -1,6 +1,6 @@
 # Algorithm
 
-An algorithm is a step-by-step procedure or formula for solving a problem or performing a task. It is a finite sequence of well-defined instructions, typically used for calculation, data processing, and automated reasoning tasks. Algorithms are fundamental to computer science and software engineering because they provide a clear set of instructions for computers to follow in order to achieve a specific goal.
+An algorithm is a step-by-step procedure or formula for solving a problem or performing a task. It is a finite sequence of well-defined instructions, typically used for calculation, data processing, and automated reasoning tasks. Algorithms are fundamental to computer science and software engineering because they provide a clear set of instructions for computers to follow in order to achieve a specific goal. 
 
 ---
 
