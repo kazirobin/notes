@@ -1,3 +1,0 @@
-# Redirecting
-
-fg
