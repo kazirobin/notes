@@ -9,17 +9,20 @@
       integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kazirobin/notes@latest/style.css"/>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/kazirobin/notes@latest/style.css"
+    /> -->
 
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <div class="my-section row">
+      <div class="my-grid-section">
         <!-- left side  -->
-        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+        <div class="grid-one">
           <div class="main-blog p-2 d-grid">
             <div class="image w-full">
               <img
@@ -37,7 +40,54 @@
           </div>
         </div>
         <!-- middle side  -->
-        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 border p-0">
+
+        <div class="grid-two">
+          <div
+            class="blogs-type-1 d-flex flex-column justify-content-evenly align-items-center"
+          >
+            <div class="blog-type-1 d-flex flex-column">
+              <a href="#" class="text-decoration-none text-black">
+                <article class="d-flex">
+                  <div class="title d-flex align-items-center">
+                    <h6 class="fw-bold">
+                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে কক্সবাজার গেলেন ড. ইউনূস
+                    </h6>
+                  </div>
+                  <div class="image">
+                    <img
+                      class="img-fluid"
+                      src="https://www.shokalshondha.com/wp-content/uploads/2025/03/yunus-guterres-coxbazar-140325-01-1024x596.jpg"
+                      alt=""
+                    />
+                  </div>
+                </article>
+                <hr />
+              </a>
+            </div>
+            <div class="blog-type-1 d-flex flex-column">
+              <a href="#" class="text-decoration-none text-black">
+                <article class="d-flex">
+                  <div class="title d-flex align-items-center">
+                    <h6 class="fw-bold">
+                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে কক্সবাজার গেলেন ড. ইউনূস
+                    </h6>
+                  </div>
+                  <div class="image">
+                    <img
+                      class="img-fluid"
+                      src="https://www.shokalshondha.com/wp-content/uploads/2025/03/yunus-guterres-coxbazar-140325-01-1024x596.jpg"
+                      alt=""
+                    />
+                  </div>
+                </article>
+                <hr />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- right side  -->
+        <div class="border p-0 grid-three">
           <div class="last-news-title">
             <h4 class="text-white text-center text-bg-primary pb-1">সর্বশেষ</h4>
           </div>
@@ -92,17 +142,19 @@
             </div>
           </div>
         </div>
-        <!-- right side  -->
-        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+
+        <!-- bottom side  -->
+         
+        <div class="grid-fore">
           <div
-            class="blogs-type-1 d-flex flex-column justify-content-evenly align-items-center"
+            class="blogs-type-1 d-flex justify-content-evenly align-items-center"
           >
             <div class="blog-type-1 d-flex flex-column">
               <a href="#" class="text-decoration-none text-black">
                 <article class="d-flex">
                   <div class="title d-flex align-items-center">
                     <h6 class="fw-bold">
-                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে কক্সবাজার গেলেন ড. ইউনূস
+                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে 
                     </h6>
                   </div>
                   <div class="image">
@@ -121,7 +173,7 @@
                 <article class="d-flex">
                   <div class="title d-flex align-items-center">
                     <h6 class="fw-bold">
-                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে কক্সবাজার গেলেন ড. ইউনূস
+                      বৈঠকের পর জাতিসংঘ মহাসচিবকে নিয়ে 
                     </h6>
                   </div>
                   <div class="image">
@@ -137,6 +189,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </body>

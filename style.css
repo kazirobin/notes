@@ -1,3 +1,80 @@
+.my-grid-section {
+  display: grid;
+  width: 100%;
+  .grid-one {
+    grid-area: one;
+  }
+  .grid-two {
+    grid-area: two;
+  }
+  .grid-three {
+    grid-area: three;
+  }
+  .grid-fore {
+    grid-area: fore;
+  }
+}
+
+/* Extra small devices (phones, 599px and down) */
+@media only screen and (max-width: 599px) {
+  .my-grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "one one one one"
+      "two two two two"
+      "three three three three"
+      "fore fore fore fore";
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 767px) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .my-grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "one one one one"
+      "two two two two"
+      "three three three three"
+      "fore fore fore fore";
+  }
+}
+
+/* Medium devices (landscape tablets, 768px to 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .my-grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "one one one one"
+      "two two three three"
+      "two two three three"
+      "fore fore fore fore";
+  }
+}
+
+/* Large devices (laptops/desktops, 992px to 1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .my-grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "one one two three"
+      "one one two three"
+      "fore fore fore three"
+      "fore fore fore three";
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .my-grid-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "one one two three"
+      "one one two three"
+      "fore fore fore three"
+      "fore fore fore three";
+  }
+}
+
 /* left side style  */
 .main-blog {
   place-items: center;
@@ -11,22 +88,6 @@
   }
 }
 /* middle side style  */
-.last-newes {
-  overflow-y: scroll;
-  max-height: 210px;
-  .last-news {
-    a {
-      p {
-        font-size: 0.9rem;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
-}
-
-/* right side style  */
 .blogs-type-1 {
   height: 100%;
 }
@@ -46,5 +107,22 @@
     width: 95%;
     border: 0;
     border-bottom: 3px solid peru;
+  }
+}
+
+/* right side style  */
+
+.last-newes {
+  overflow-y: scroll;
+  max-height: 510px;
+  .last-news {
+    a {
+      p {
+        font-size: 0.9rem;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
   }
 }
